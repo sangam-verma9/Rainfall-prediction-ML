@@ -24,7 +24,7 @@ A web application that uses machine learning to predict whether it will rain tom
 1. Clone this repository:
    ```
    git clone https://github.com/sangam-verma9/Rainfall-prediction-ML.git
-   cd rainfall-prediction
+   cd Rainfall-prediction-ML
    ```
 
 2. Create a virtual environment and activate it:
@@ -43,25 +43,39 @@ A web application that uses machine learning to predict whether it will rain tom
    python app.py
    ```
 
-5. Open your web browser and visit `http://localhost:5000`
+5. Open your web browser and visit `http://127.0.0.1:5000/`
 
 ## Project Structure
 
 ```
-rainfall-prediction/
-├── app.py                  # Flask application file
-├── template/               # HTML templates
-│   ├── home.html           # Main form page
-│   ├── sunny.html          # Result page for sunny prediction
-│   ├── rainy.html          # Result page for rainy prediction
-├── static/                 # Static assets
-│   ├── predictor.css       # Main CSS for form
-│   ├── result.css          # CSS for result pages
-│   ├── sunny.svg           # Sunny day illustration
-│   ├── rainy.svg           # Rainy day illustration
-├── xgboostmodel.pkl        # Trained XGBoost model
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+RAINFALL-PREDICTION-ML/
+├── static/                  # Static assets
+│   ├── predictor.css        # Main CSS for form
+│   ├── result.css           # CSS for result pages
+│   ├── sunny.svg            # Sunny day illustration
+│   ├── rainy.svg            # Rainy day illustration
+├── template/                # HTML templates
+│   ├── home.html            # Main form page
+│   ├── sunny.html           # Result page for sunny prediction
+│   ├── rainy.html           # Result page for rainy prediction
+├── app.py                   # Flask application file
+├── xgboostmodel.pkl         # Trained XGBoost model
+├── catboost_model.ipynb     # Notebook for CatBoost model
+├── catboost_model.pkl       # Trained CatBoost model
+├── Data Preprocessing.ipynb # Data preprocessing notebook
+├── Decision Tree model.ipynb # Decision Tree model notebook
+├── decision_tree_model.pkl  # Trained Decision Tree model
+├── Feature selection.ipynb  # Feature selection analysis notebook
+├── KNeighbors Classifier model.ipynb # KNN model notebook
+├── kneighbors_model.pkl     # Trained KNN model
+├── Logistic Regression model.ipynb # Logistic Regression notebook
+├── LogisticRegression_model.pkl # Trained Logistic Regression model
+├── Random Forest model.ipynb # Random Forest model notebook
+├── requirements.txt         # Python dependencies
+├── weather_preprocessed.csv # Preprocessed weather data
+├── weatherAUS.csv           # Original Australian weather dataset
+├── Xgboost model.ipynb      # XGBoost model notebook
+└── README.md                # Project documentation
 
 ```
 
@@ -90,10 +104,6 @@ The prediction is powered by an XGBoost classifier trained on historical Austral
 - Add multi-day forecasting capabilities
 - Create a mobile app version
 - Add user accounts to save previous predictions
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
