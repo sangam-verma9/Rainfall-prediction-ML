@@ -2,7 +2,7 @@
 
 A web application that uses machine learning to predict whether it will rain tomorrow based on current weather conditions. The system utilizes an XGBoost model trained on Australian weather data.
 
-![Rainfall Prediction App](https://api/placeholder/800/400)
+![Rainfall Prediction App](https://rainfallpredictor.onrender.com)
 
 ## Features
 
