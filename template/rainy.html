@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href={{url_for('static',filename='result.css')}}>
+    <title>Rainy Forecast</title>
+</head>
+<body>
+    <div class="rainy-container">
+        <div class="result-card">
+            <div class="weather-icon">
+                <i class="fas fa-cloud-rain fa-5x rainy-emoji"></i>
+            </div>
+            
+            <h1 class="result-title">TOMORROW WILL BE A RAINY DAY!</h1>
+            
+            <div class="weather-image">
+                <img src={{url_for('static',filename='rainy.svg')}} alt="Rainy day illustration" style="max-width: 400px;">
+            </div>
+            
+            <p class="weather-description">
+                Our AI predicts rainfall tomorrow. Don't forget your umbrella and plan indoor activities!
+                A perfect day to enjoy a good book or movie.
+            </p>
+            
+            <a href="/" class="back-link">
+                <i class="fas fa-arrow-left me-2"></i> Back to Prediction Tool
+            </a>
+        </div>
+    </div>
+</body>
+</html>

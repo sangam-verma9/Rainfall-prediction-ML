@@ -1,0 +1,88 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="500" height="400" fill="#5D8AA8"/>
+  
+  <!-- Clouds -->
+  <g>
+    <!-- Cloud 1 -->
+    <ellipse cx="150" cy="100" rx="70" ry="40" fill="#6b747c"/>
+    <ellipse cx="120" cy="90" rx="50" ry="35" fill="#6b747c"/>
+    <ellipse cx="180" cy="90" rx="50" ry="35" fill="#6b747c"/>
+    
+    <!-- Cloud 2 -->
+    <ellipse cx="320" cy="80" rx="60" ry="30" fill="#6b747c"/>
+    <ellipse cx="290" cy="70" rx="40" ry="25" fill="#6b747c"/>
+    <ellipse cx="350" cy="70" rx="40" ry="25" fill="#6b747c"/>
+    
+    <!-- Cloud 3 -->
+    <ellipse cx="80" cy="150" rx="50" ry="25" fill="#6b747c"/>
+    <ellipse cx="60" cy="140" rx="30" ry="20" fill="#6b747c"/>
+    <ellipse cx="100" cy="140" rx="30" ry="20" fill="#6b747c"/>
+    
+    <!-- Main rain cloud -->
+    <ellipse cx="250" cy="140" rx="100" ry="60" fill="#445760"/>
+    <ellipse cx="200" cy="130" rx="70" ry="45" fill="#445760"/>
+    <ellipse cx="300" cy="130" rx="70" ry="45" fill="#445760"/>
+  </g>
+  
+  <!-- Raindrops -->
+  <g>
+    <!-- Column 1 -->
+    <path d="M160,200 L150,230 C150,235 170,235 170,230 L160,200" fill="#b3e5fc"/>
+    <path d="M160,250 L150,280 C150,285 170,285 170,280 L160,250" fill="#b3e5fc"/>
+    <path d="M160,300 L150,330 C150,335 170,335 170,330 L160,300" fill="#b3e5fc"/>
+    
+    <!-- Column 2 -->
+    <path d="M200,180 L190,210 C190,215 210,215 210,210 L200,180" fill="#b3e5fc"/>
+    <path d="M200,230 L190,260 C190,265 210,265 210,260 L200,230" fill="#b3e5fc"/>
+    <path d="M200,280 L190,310 C190,315 210,315 210,310 L200,280" fill="#b3e5fc"/>
+    
+    <!-- Column 3 -->
+    <path d="M240,200 L230,230 C230,235 250,235 250,230 L240,200" fill="#b3e5fc"/>
+    <path d="M240,250 L230,280 C230,285 250,285 250,280 L240,250" fill="#b3e5fc"/>
+    <path d="M240,300 L230,330 C230,335 250,335 250,330 L240,300" fill="#b3e5fc"/>
+    
+    <!-- Column 4 -->
+    <path d="M280,180 L270,210 C270,215 290,215 290,210 L280,180" fill="#b3e5fc"/>
+    <path d="M280,230 L270,260 C270,265 290,265 290,260 L280,230" fill="#b3e5fc"/>
+    <path d="M280,280 L270,310 C270,315 290,315 290,310 L280,280" fill="#b3e5fc"/>
+    
+    <!-- Column 5 -->
+    <path d="M320,200 L310,230 C310,235 330,235 330,230 L320,200" fill="#b3e5fc"/>
+    <path d="M320,250 L310,280 C310,285 330,285 330,280 L320,250" fill="#b3e5fc"/>
+    <path d="M320,300 L310,330 C310,335 330,335 330,330 L320,300" fill="#b3e5fc"/>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="350" width="500" height="50" fill="#607D8B"/>
+  
+  <!-- Puddles -->
+  <ellipse cx="100" cy="370" rx="40" ry="10" fill="#90A4AE"/>
+  <ellipse cx="250" cy="375" rx="50" ry="12" fill="#90A4AE"/>
+  <ellipse cx="400" cy="372" rx="35" ry="8" fill="#90A4AE"/>
+  
+  <!-- House -->
+  <g>
+    <rect x="70" y="270" width="100" height="80" fill="#795548"/>
+    <!-- Roof -->
+    <polygon points="60,270 180,270 120,220" fill="#4E342E"/>
+    <!-- Door -->
+    <rect x="105" y="310" width="30" height="40" fill="#5D4037"/>
+    <circle cx="125" cy="330" r="3" fill="#FFC107"/>
+    <!-- Windows -->
+    <rect x="85" y="290" width="20" height="20" fill="#90A4AE"/>
+    <line x1="95" y1="290" x2="95" y2="310" stroke="#CFD8DC" stroke-width="2"/>
+    <line x1="85" y1="300" x2="105" y2="300" stroke="#CFD8DC" stroke-width="2"/>
+    
+    <rect x="135" y="290" width="20" height="20" fill="#90A4AE"/>
+    <line x1="145" y1="290" x2="145" y2="310" stroke="#CFD8DC" stroke-width="2"/>
+    <line x1="135" y1="300" x2="155" y2="300" stroke="#CFD8DC" stroke-width="2"/>
+  </g>
+  
+  <!-- Umbrella -->
+  <g>
+    <path d="M390 320 C390 280, 340 280, 340 320" fill="#F44336" stroke="#B71C1C" stroke-width="2"/>
+    <line x1="365" y1="320" x2="365" y2="370" stroke="#795548" stroke-width="3"/>
+    <path d="M365 320 C370 325, 375 320, 370 315" fill="none" stroke="#795548" stroke-width="2"/>
+  </g>
+</svg>
